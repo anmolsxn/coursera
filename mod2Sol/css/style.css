@@ -1,21 +1,10 @@
-*{
-	box-sizing: border-box;
-	}
-body{
-	font-family: sans-serif;
-	}
-section
-	{ 	
-	background-color: grey;
-	margin-bottom: 30px;
-	margin-right: 0.33%;
-	}
-h1	{
+*{	box-sizing: border-box;	}
+body{	font-family: sans-serif;	}
+h1	{	
 	text-align: center;
-	font-size: 100% bold;
+	font-size: 100% bold;	
 	}
-h2  {	
-	
+h2  {		
 	text-align:center;
 	background-color: red;	
 	width: 100px;
@@ -31,15 +20,15 @@ h2  {
 h3 {
 	text-align:center;
 	background-color: orange;
-	width: 100px;
-	height: 20px;
-	font-size: 75%;	
-	border: 1px solid black;
-	margin-top: 0;
-	margin-right: 0;
-	margin-left: auto;
-	padding-right: 5px;
-	padding-top: 2px;
+	width:100px;
+	height:20px;
+	font-size:75%;	
+	border:1px solid black;
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	padding-right:5px;
+	padding-top:2px;
 	}
 h4	{
 	background-color: yellow;
@@ -48,26 +37,35 @@ h4	{
 	height: 20px;
 	font-size: 75%;	
 	border: 1px solid black;
-	margin-top: 0;
-	margin-right: 0;
-	margin-left: auto;
-	padding-right: 5px;
-	padding-top: 2px;
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	padding-right:5px;
+	padding-top:2px;
 	}
 .p1
 	{
-		float: left ;
-		border: 1px solid black;
+		float:left;
+		border:1px solid black;
+		background-color: grey;
+		margin-bottom: 30px;
+		margin-right: 0.33%;s
 
 	}
 .p2 {
-		float: left;
+		float:left;
 		border: 1px solid black;
+		background-color: grey;
+		margin-bottom: 30px;
+		margin-right: 0.33%;
 	}
 	
 .p3 {
-	float: left;
-	border: 1px solid black;
+	float:left;
+	border:1px solid black;
+	background-color: grey;
+	margin-bottom: 30px;
+	margin-right: 0.33%;
 	}
 /***********for desktop************/
 @media (min-width: 992px) {
