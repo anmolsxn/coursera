@@ -1,0 +1,115 @@
+*{	box-sizing: border-box;	
+	overflow:auto;
+}
+body{	font-family: sans-serif;	}
+h1	{	
+	text-align: center;
+	font-size: 100% bold;	
+	}
+h2  {		
+	text-align:center;
+	background-color: red;	
+	width: 100px;
+	height: 20px;
+	font-size: 75%;	
+	border: 1px solid black;
+	margin-top: 0;
+	margin-right: 0;	
+	margin-left: auto;
+	padding-top: 2px;
+	padding-right: 5px;
+	}
+h3 {
+	text-align:center;
+	background-color: orange;
+	width:100px;
+	height:20px;
+	font-size:75%;	
+	border:1px solid black;
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	padding-right:5px;
+	padding-top:2px;
+	}
+h4	{
+	background-color: yellow;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	font-size: 75%;	
+	border: 1px solid black;
+	margin-top:0;
+	margin-right:0;
+	margin-left:auto;
+	padding-right:5px;
+	padding-top:2px;
+	}
+.p1
+	{
+		float:left;
+		border:1px solid black;
+		background-color: grey;
+		margin-bottom: 30px;
+		
+	}
+.p2 {
+		float:left;
+		border: 1px solid black;
+		background-color: grey;
+		margin-bottom: 30px;
+			
+	}
+	
+.p3 {
+	float:left;
+	border:1px solid black;
+	background-color: grey;
+	margin-bottom: 30px;
+		}
+	p{
+		padding:5px 5px 5px 5px;
+	}
+/***********for desktop************/
+@media (min-width: 992px) {
+	 	.p1 {
+	 		margin-right: 0.5%;
+	 	width: 33%;
+	      }
+
+	   .p2 {
+	   	margin-right: 0.5%;
+	   	width: 33%;
+	   }
+
+	   .p3 {
+	   	width: 33%
+	   }
+}
+/***********for tablet**********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.p1 {
+		margin-right: 2%;
+		width: 49%;
+	}
+	.p2 {
+		margin-right:0;
+		width: 49%;
+	}
+	.p3 {
+		width: 100%;
+	}
+}
+/***********for mobile*******/
+@media (max-width: 767px) {
+	.p1 {
+		width: 100%	
+	}
+	.p2 {
+		width: 100%	
+	}
+	.p3 {
+		width: 100%	
+		}
+	}
+	
